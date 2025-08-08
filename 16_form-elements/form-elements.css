@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  font-family: sans-serif;
+}
+div {
+  padding: 5px 0;
+}
+h1 {
+  text-align: center;
+  color: #A8A8A8;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 5px 0;
+}
+select {
+  min-width: 100px;
+  padding: 10px 15px;
+}
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 5px 0;
+  line-height: 25px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  color: #000000;
+  border-radius: 5px;
+  background: #A0A0A0;
+}
+fieldset,
+legend {
+  margin: 15px 0;
+  padding: 10px 15px;
+}
+input, select, textarea{
+  background: #3C3C3C;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #A0A0A0;
+}
