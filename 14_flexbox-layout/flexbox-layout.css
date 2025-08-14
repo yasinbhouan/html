@@ -15,6 +15,7 @@ body {
 }
 .section {
   background: #cecece;
+
   display: flex;
 }
 .nav {
@@ -43,7 +44,7 @@ body {
   padding: 15px 0;
 }
 .article p {
-  line-height: 25px;
+  line-height: 2;
   color: #717171;
 }
 .footer {
