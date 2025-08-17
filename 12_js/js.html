@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- meta tag -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- title, description, author -->
+  <title>HTML JS</title>
+  <meta name="description" content="Description of the page">
+  <meta name="author" content="Author Name">
+
+  <!-- open graph protocol -->
+  <meta property="og:title" content="Title">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:description" content="Description of the page">
+  <meta property="og:image" content="https://example.com/image.jpg">
 
   <!-- favicon -->
-  <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+  <link rel="icon" href="../images/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../images/icon.png">
 
-  <!-- common style -->
-  <link rel="stylesheet" href="../style.css">
-
-  <!-- custom style -->
+  <!-- CSS stylesheets -->
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="./js.css">
-
-  <!-- title -->
-  <title>HTML JS</title>
 </head>
+
 <body>
   <!-- js can change content -->
   <h1 id="title">JavaScript will change this.</h1>
   <button onclick="changetitle()" type="button">Change This</button>
 
   <!-- js can change style -->
-  <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis corporis iste maxime distinctio ipsum culpa totam. Laborum doloribus cum laboriosam quisquam ratione. Inventore ea debitis libero porro quisquam quia.</p>
+  <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis corporis iste maxime
+    distinctio ipsum culpa totam. Laborum doloribus cum laboriosam quisquam ratione. Inventore ea debitis libero porro
+    quisquam quia.</p>
   <button onclick="changePara()" type="button">Change It</button>
 
-  <!-- js script -->
+  <!-- javascript files -->
   <script src="./js.js"></script>
 </body>
+
 </html>

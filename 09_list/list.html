@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- meta tag -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- title, description, author -->
+  <title>HTML List</title>
+  <meta name="description" content="Description of the page">
+  <meta name="author" content="Author Name">
+
+  <!-- open graph protocol -->
+  <meta property="og:title" content="Title">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:description" content="Description of the page">
+  <meta property="og:image" content="https://example.com/image.jpg">
 
   <!-- favicon -->
-  <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+  <link rel="icon" href="../images/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../images/icon.png">
 
-  <!-- common style -->
-  <link rel="stylesheet" href="../style.css">
-
-  <!-- custom style -->
-  <link rel="stylesheet" href="../style.css">
-
-  <!-- title -->
-  <title>HTML List</title>
+  <!-- CSS stylesheets -->
+  <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
   <!-- unordered lists -->
   <ul style="list-style-type: disc"> <!-- disc, circle, square, none -->
@@ -27,7 +36,7 @@
   </ul>
 
   <!-- ordered lists -->
-  <ol style="list-style-type: decimal-leading-zero;" start="50";> <!-- 1, A, a, I, i -->
+  <ol style="list-style-type: decimal-leading-zero;" start="50" ;> <!-- 1, A, a, I, i -->
     <li>HTML</li>
     <li>CSS</li>
     <li>JS</li>
@@ -43,4 +52,5 @@
     <dd>- JavaScript</dd>
   </dl>
 </body>
+
 </html>
